@@ -4,15 +4,25 @@
     box-sizing: border-box;
 }
 body{
-background-image: linear-gradient(120deg,red,green);
+background-image: linear-gradient(127deg,rgb(243, 165, 20) ,rgb(9, 9, 217));
 
 }
+.robotlogo{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 9px;
+    margin-left: 430px;
+}
+
 .hellow{
     height: 400px;
     width: 600px;
     background-color: rgb(248, 251, 250);
     border-radius: 10px 120px 10px 120px;
-    margin: 13% auto;
+    margin: 16% auto;
+    box-shadow: 12px 12px 15px rgb(4, 0, 0);
+
 }
 .head{
     padding-left: 80px;
@@ -38,8 +48,14 @@ button{
     height: 40px;
     font-size: 29px;
     font-weight: 600;
+    cursor:pointer;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+button:hover{
+    box-shadow: 3px 3px 4px black;
+}
+
 .btn1{
 
     background-color: rgb(0, 174, 255);
