@@ -31,6 +31,8 @@ function tostop(){
 
 function reset(){
     clearInterval(counterFunction);
+    Counter_run=true;
+    // above we are updating the status for same reason of above
     count=count*0;
     forCountDisplay.innerHTML=''; 
 }
